@@ -85,8 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 115,
                         width: 120,
                         decoration: BoxDecoration(
-                            border: Border.all(
-                                width: 3, color: Colors.amber),
+                            border: Border.all(width: 3, color: Colors.amber),
                             borderRadius: BorderRadius.circular(20),
                             image: DecorationImage(
                                 image: AssetImage(mercedesBenz),
@@ -103,7 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 115,
                         width: 120,
                         decoration: BoxDecoration(
-                            border: Border.all(width: 3, color: Colors.indigoAccent),
+                            border: Border.all(
+                                width: 3, color: Colors.indigoAccent),
                             borderRadius: BorderRadius.circular(20),
                             image: DecorationImage(
                                 image: AssetImage(rangeRover),
